@@ -31,11 +31,12 @@ body {
 
 #Vitor {
     float: left;
-    height: 265px;
+    padding: 10px;
+    background-color: rgb(255, 125, 0);
 }
 
 .image-container {
-    height: 265px;
+    height: 290px;
 }
 
 div {
