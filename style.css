@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     font-family: sans-serif;
     background-color: rgb(21, 97, 109);
@@ -5,7 +9,7 @@ h1 {
 }
 
 .paragrafo-sobre {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
 body {
@@ -18,4 +22,12 @@ body {
 
 .habilidades-destaque {
     font-size: 20px;
+}
+
+#personal-name {
+    font-size: 30px;
+}
+
+div {
+    border: 2px solid black;
 }
