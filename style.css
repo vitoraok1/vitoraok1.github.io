@@ -1,26 +1,32 @@
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 3%;
 }
 
 h1 {
-    font-family: sans-serif;
     background-color: rgb(21, 97, 109);
     color: rgb(255, 125, 0);
 }
 
-.paragrafo-sobre {
-    font-family: 'Roboto', sans-serif;;
+.about {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 230px;
 }
 
 body {
     background-color: rgb(255, 236, 209);
 }
 
-#nacionalidade-cidade {
+#city-country{
     font-weight: bold;
+    position: absolute;
+    top: 195px;
+    left: 210px;
 }
 
-.habilidades-destaque {
+.abilities {
     font-size: 20px;
 }
 
@@ -37,8 +43,5 @@ body {
 
 .image-container {
     height: 290px;
-}
-
-div {
-    border: 2px solid black;
+    position: relative;
 }
