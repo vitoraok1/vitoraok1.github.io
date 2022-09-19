@@ -28,6 +28,19 @@ body {
     font-size: 30px;
 }
 
+#Vitor {
+    float: left;
+    height: 265px;
+}
+
+.image-container {
+    height: 265px;
+}
+
+
+
+
+
 div {
     border: 2px solid black;
 }
