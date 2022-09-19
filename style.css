@@ -47,3 +47,7 @@ h1 {
 .banner-description {
     font-size: 15px;
 }
+
+ul li:nth-child(odd) {
+    background-color: aliceblue;
+}
