@@ -26,6 +26,7 @@ body {
 
 #personal-name {
     font-size: 30px;
+    text-align: center;
 }
 
 #Vitor {
@@ -36,10 +37,6 @@ body {
 .image-container {
     height: 265px;
 }
-
-
-
-
 
 div {
     border: 2px solid black;
