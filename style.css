@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(255, 236, 209);
     font-family: 'Roboto', sans-serif;
     padding: 3%;
 }
@@ -6,6 +7,7 @@ body {
 h1 {
     background-color: rgb(21, 97, 109);
     color: rgb(255, 125, 0);
+    padding: 10px;
 }
 
 .about {
@@ -13,10 +15,6 @@ h1 {
     position: absolute;
     top: 60px;
     left: 230px;
-}
-
-body {
-    background-color: rgb(255, 236, 209);
 }
 
 #city-country{
@@ -44,4 +42,8 @@ body {
 .image-container {
     height: 290px;
     position: relative;
+}
+
+.banner-description {
+    font-size: 15px;
 }
