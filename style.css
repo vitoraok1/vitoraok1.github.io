@@ -1,21 +1,53 @@
-h1 {
-    font-family: sans-serif;
-    background-color: rgb(21, 97, 109);
-    color: rgb(255, 125, 0);
-}
-
-.paragrafo-sobre {
-    font-family: sans-serif;
-}
-
 body {
     background-color: rgb(255, 236, 209);
+    font-family: 'Roboto', sans-serif;
+    padding: 3%;
 }
 
-#nacionalidade-cidade {
+h1 {
+    background-color: rgb(21, 97, 109);
+    color: rgb(255, 125, 0);
+    padding: 10px;
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 230px;
+}
+
+#city-country{
     font-weight: bold;
+    position: absolute;
+    top: 195px;
+    left: 210px;
 }
 
-.habilidades-destaque {
+.abilities {
     font-size: 20px;
+}
+
+#personal-name {
+    font-size: 30px;
+    text-align: center;
+}
+
+#Vitor {
+    float: left;
+    padding: 10px;
+    background-color: rgb(255, 125, 0);
+}
+
+.image-container {
+    height: 290px;
+    position: relative;
+}
+
+.banner-description {
+    font-size: 15px;
+}
+
+ul li:nth-child(odd) {
+    background-color: aliceblue;
 }
