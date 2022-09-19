@@ -1,0 +1,21 @@
+h1 {
+    font-family: sans-serif;
+    background-color: rgb(21, 97, 109);
+    color: rgb(255, 125, 0);
+}
+
+.paragrafo-sobre {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(255, 236, 209);
+}
+
+#nacionalidade-cidade {
+    font-weight: bold;
+}
+
+.habilidades-destaque {
+    font-size: 20px;
+}
