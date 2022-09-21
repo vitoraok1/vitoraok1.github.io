@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    color: #2c363f
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d6dbd2;
+    width: 100%;
+    letter-spacing: 20%;
+    text-align: center;
+    z-index: 7;
+}
+
+#titulo {
+    padding-left: 20px;
+    font-size: 35px;
+    color: #2c363f;
+}
+
+#minha_foto {
+    border-radius: 5%;
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    box-shadow: 5px 5px #d6dbd2;
+    z-index: 1;
+}
+
+.nome {
+    position: absolute;
+    top: 382px;
+    left: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2c363f;
+    background-color:#bbc7a4;
+    padding: 5px;
+    border-radius: 50px 15px;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    z-index: 2;
+}
+
+.nome:hover {
+    color: #e75a7c;
+}
+
+.titulo-licoes-aprendidas {
+    position: relative;
+    top: 435px;
+    left: 30px;
+}
+
+#licoes_aprendidas {
+    float: left;
+    width: 45%;
+    padding: 420px 45px 20px;
+    line-height: 30px;
+}
+
+.titulo-licoes-a-aprender {
+    position: absolute;
+    top: 435px;
+    left: 440px;
+    z-index: 3;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    width: 450px;
+    top: 405px;
+    left: 410px;
+    padding: 70px 50px 50px 50px;
+    line-height: 30px;
+}
+
+#rodape {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    background-color: #d6dbd2;
+    text-align: center;
+    font-size: 15px;
+    z-index: 8;
+}
+
+.nome-rodape {
+    text-decoration: none;
+    color: #2c363f;
+    z-index: 4;
+}
+
+.nome-rodape:hover {
+    color: #e75a7c;
+}
+
+.lado-direito {
+    position: absolute;
+    left: 800px;
+    top: 140px;
+    padding: 30px;
+    width: 450px;
+    height: 590px;
+    z-index: 5;
+    background-color: #bbc7a4;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+.gif {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.navigation {
+    background-color: #bbc7a4;
+    text-align: center;
+    padding: 0 1%;
+    height: 2em;
+    margin: 0%;
+    display: block;
+}
+
+.navigation ul {
+    padding: 7px 0;
+  }
+
+  .navigation li {
+    margin-right: 30px;
+    list-style: none;
+    display: inline;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c363f;
+  }
+
+  .navigation li a:hover {
+    color: #e75a7c;
+  }
+
+  .trybe-link {
+    text-decoration: none;
+    color: #2c363f;
+  }
+
+  .trybe-link:hover {
+    color: #e75a7c;
+  }
+
+  .lado-esquerdo {
+    position: absolute;
+    width: 450px;
+    top: 140px;
+    left: 280px;
+    padding: 30px 20px;
+    line-height: 30px;
+    background-color: #e75a7c;
+    border-radius: 15px;
+    color: rgb(253, 251, 251);
+  }
+
+  table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    position: absolute;
+    left: 1340px;
+    top: 270px;
+    padding: 30px;
+    width: 480px;
+    height: 400px;
+    z-index: 6;
+    line-height: 26px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #f2a1b4;
+  }
+
+  .titulo-tabela {
+    position: absolute;
+    width: 430px;
+    height: 60px;
+    left: 1340px;
+    top: 120px;
+    padding: 25px;
+    border-radius: 15px 50px;
+    z-index: 7;
+    line-height: 30px;
+    background-color: #bbc7a4;
+    text-align: center;
+  }
+
+  .text-table {
+    text-align: center;
+  }
