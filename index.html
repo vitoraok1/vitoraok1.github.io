@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Vitor Aoki - Portfolio</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+            <i class="bx bxs-moon change-theme" id="theme-button"></i>
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Vitor Aoki</h2>
+                    <h3 class="profile__profession">Web developer</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.linkedin.com/in/vitoraok1/" target="_blank" class="profile__social-link">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/vitoraok1" target="_blank" class="profile__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://www.instagram.com/vitor____aoki/" target="_blank" class="profile__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Bio</h3>
+                        <p class="profile__info-description">
+                            Designer and Web developer <br> based in Cianorte-PR.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/Profile.pdf" class="button">
+                        Download CV <i class='bx bx-download' ></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <a href="https://api.whatsapp.com/send?phone=5544998906914&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20seu%20trabalho!" target="_blank" class="button button__small button__gray">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                        <a href="mailto:vitoraoki17@gmail.com" target="_blank" class="button button__small button__gray">
+                            <i class='bx bxl-gmail' ></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/trivia.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">React/Redux</span>
+                                    <h3 class="projects__title">Trivia Game</h3>
+                                    <a href="https://github.com/vitoraok1/react-redux-trivia-trybe" target="_blank" class="projects__button button button__small">
+                                        <i class='bx bx-link' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/starwars.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">React/ContextAPI</span>
+                                    <h3 class="projects__title">StarWars Planet Search</h3>
+                                    <a href="https://github.com/vitoraok1/react-contextapi-starwars-planet-search-trybe" target="_blank" class="projects__button button button__small">
+                                        <i class='bx bx-link' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/recipesapp.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">React/ContextAPI</span>
+                                    <h3 class="projects__title">Recipes APP</h3>
+                                    <a href="https://github.com/vitoraok1/react-contextapi-recipes-app-trybe" target="_blank" class="projects__button button button__small">
+                                        <i class='bx bx-link' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/blogsAPI.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Sequelize/NodeJS</span>
+                                    <h3 class="projects__title">Blogs API</h3>
+                                    <a href="https://github.com/vitoraok1/sequelize-nodejs-blogs-api-trybe" target="_blank" class="projects__button button button__small">
+                                        <i class='bx bx-link' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/trybefc.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Docker/NodeJS/TypeScript</span>
+                                    <h3 class="projects__title">Trybe Football Club</h3>
+                                    <a href="https://github.com/vitoraok1/docker-nodejs-poo-trybefc-trybe" target="_blank" class="projects__button button button__small">
+                                        <i class='bx bx-link' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/trybersanddragons.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">POO/Solid/TypeScript</span>
+                                    <h3 class="projects__title">Trybers & Dragons</h3>
+                                    <a href="https://github.com/vitoraok1/poo-solid-ts-trybers-and-dragons-trybe" target="_blank" class="projects__button button button__small">
+                                        <i class='bx bx-link' ></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Frontend developer
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">React</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap</h3>
+                                                <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Git/GitHub</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Backend developer
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">NodeJS</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Express</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">MongoDB</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                                <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">TypeScript</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Graphic Designer
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Adobe Photoshop</h3>
+                                                <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Adobe Illustrator</h3>
+                                                <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class='bx bx-checkbox-checked' ></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Adobe After Effects</h3>
+                                                <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                <i class='bx bx-copyright'></i> Vitor Aoki 2023. All rights reserved.
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
